@@ -1,0 +1,33 @@
+*{
+    font-family: "Dela Gothic One", serif;
+    user-select: none;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#clicker {
+    height: 100vh; /* Высота экрана */
+    width: 100%; /* Ширина экрана */
+    background-color: #f3f3f3;
+}
+
+#myH1 {
+    text-align: center;
+}
+
+#myBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 25px 50px;
+    border: none;
+    background: linear-gradient(90deg, #162C5C 0%, #68A8C6 100%);
+    cursor: pointer;
+    color: whitesmoke;
+}
